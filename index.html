@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8"
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Project 2</title>
+		<link rel="stylesheet" href="css/style.css"
+		
+
+	</head>
+		<style>
+			h3{
+				color: green;
+			}
+		</style>
+
+	<body> 
+		<!--This is class revision-->
+		<h1 style="color:Green;">Practice Project</h1>
+		<p class="note1">[Note: The header line and the color is executed by inline css]</p>
+		<h2>The color of this line and the border is implemented by external css</h2>
+			<p>Internal linking in root directory is given below:<p> 
+			<a href="about.html">Shark Tank</a>
+			<p>Internal Linking through file path is given below:</p>
+			 <a href="pages/about.html">Copy file of Shark Tank</a> 
+			 <p>If client didn't provide any link</p>
+			 <a href="#">Coming Soon</a>
+			 <p>Adding external link and showing it on the same tab</p>
+			 <p>In other words, checking the working process of Target self</p>
+			 <a href="https://www.facebook.com/OnasAhmed31/" target="">My Profile</a>
+			 <p> Checking the same target tag with blank or opening external links in a different tab by default</p>
+			 <a href="https://www.facebook.com/shaonimdad9" target="_blank">My Brother's profile</a>
+			 <p>Checking the power among Inline CSS, Internal CSS, External CSS:</p>
+			 <h3 style="color: red;">Inline CSS: Red, Internal CSS: Green, External CSS: Blue</h3>
+			 <p>Here in the upper line, if the color is Red then it means Inline CSS is powerfull among them though we declare the same line in 3 different format</p>
+
+
+
+			<h4 id="idpower" class="classpower">Now we'll check the power among tag,class and ID</h4>
+
+				<p>If the color of the upper line is red then tag is powerful, if it's green then class is powerful and if it's blue then ID is powerful</p>
+				<p>Now we'll see the difference between px,pt,em/rem and % in a blank Division elements without putting any data</p>
+				<div class="pxcheck"></div>
+				<p>30px</p>
+				<div class="ptcheck"></div>
+				<p>30pt</p>
+				<div class="emcheck"></div>
+				<p>30em or 30rem</p>
+				<div class="pcntcheck"></div>
+				<p>30% [height is 30px]</p>
+				<h3>Color through hexadecimal:</h3>
+				<div class="hexa"></div>
+				<p>The color code of the above box in Hexadecimal is: #654551</p>
+				<div class="rgb"></div>
+				<p>This color code of the above box carries similar height width and background color but the bg color is implemented by rgb tag. The color code of this bg-color is: rgb(65,45,51)
+				<div class="rgba"></div>
+				<p>This color code of the box is known as argb tag. The same color code we used in rgb, we used that in argb too but with an addition of opacity. The actual color code is: rgba(65,45,51,.4)</p>
+				<!--this is 50 elemensts introduction section-->
+				<p class="note1">The use of Abbr is given below:</p>
+				Put your mouse pointer<abbr title="And see the magic"> Here ==></abbr>
+				<p class="note1">Now know the use of address tag:</p>
+			<address>
+				My <a href="https://www.facebook.com/OnasAhmed31/" target="_blank">Facebook Profile</a> is given here.<br>
+			</address>
+
+			<article class="IPL">
+				<h3>Checking the article tag</h2>
+				<p class="history">8 Teams compete to get the title. The prize money of the champion of this league is 20 crore. Though every team use 90 Crore in the auction. They got a huge number of money from broadcasting rights and sponsors.</p>
+				<h3>Checking the article tag 2</h3>
+				<p class="history">This year 2 new teams has been added in the league. They are: <b>Lucknow Super Giant</b> known as LSG and <b>Gujrat Titans</b> known as GT</p>
+			</article>
+			<aside>
+			<p>The total 10 teams of IPL are: Chennai Super Kings, Mumbai Indians, Kolkata Night Riders, Sunrisers Hyderabad, Rajasthan Royals, Royal Challengers Bangalore, Delhi Capitals, Kings XI Punjab, Lucknow Super Giants and Gujrat Titans</p>
+
+			</aside>
+			<p>Try to read the next line:</p>
+			<bdo dir="rtl" class="note1">Have a nice day mate</bdo>
+
+			<button type="button" onclick="alert('Thanks for the click')">Click Here</button>
+			<p> Here in this line I've used <cite>cite tag</cite></p>
+			<p>By using "code" element we can <code>get a thiner size</code> of the default word</p>
+			<blockquote>
+				Chennai Super Kings had won 4 IPL title where Mumbai Indian had won 5 times. Rajasthan Royals and Sunrisers Hyderabad had won the title once each. But Kolkata Knight Riders had the taste of champion twice.
+			</blockquote>
+			<p>Now we'll form a table:</p>
+			<table>
+				<colgroup>
+					<col span="2" style="background-color:green;" style="color:Green">
+					<col style="background-color: skyblue;">
+				</colgroup>
+				<tr>
+					<th>Team Name</th>
+					<th>Title Won</th>
+					<th>Year</th>
+				</tr>
+				<tr>
+					<td>Mumbai Indians</td>
+					<td>5</td>
+					<td>2013,2015,2017,2019,2020</td>
+				
+				</tr>
+				<tr>
+					<td>Chennai Super Kings</td>
+					<td>4</td>
+					<td>2010,2011,2018,2021</td>
+				</tr>
+				<tr>
+					<td>Kolkata Knight Riders</td>
+					<td>2</td>
+					<td>2012,2014</td>
+				</tr>
+			</table>
+			<p>Now we'll see how "data element" works. It'll hide an internal value from the user.</p>
+			<ul>
+				<li><data value="40">MS Dhoni</data></li>
+				<li><data value="34">Rohit Sharma</data></li>
+				<li><data value="33">Virat Kohli</data></li>
+			</ul>
+			<p>Here in the upper section we can see big dots in the start of every line. This is because of "li" tag</p>
+				<p>Now we'll see how to use <strong>description</strong> list</p>
+				<dl>
+					<dt class="note1">Banned Teams in IPL:</dt>
+					<dd>Deccan Chargers</dd>
+					<dd>Kochi Tusker Kerela</dd>
+					<dt class="note1">Teams which got a temporary ban:</dt>
+					<dd>Chennai Super Kings</dd>
+					<dd>Rajasthan Royals</dd>
+				</dl>
+
+				<p>In the upper description list we didn't use space button. We use "dd" tag to perform the line starting from a bit left from the upper line.</p>
+				<p class="history">And now we'll get to know which teams are playing with different names but from the same state:</p>
+				<li>1.<del>Delhi Daredevils</del> Delhi Capitals</li>
+				<li>2.<del>Deccan Chargers</del> Sunrisers Hyderabad</li>
+				<li>3.<del>Kings XI Punjab</del> Punjab Kings</li>
+				<details>
+					<summary>Click here for more:</summary>
+					<dd> Deccan Chargers </dd>
+					<dd> Pune Warriors India</dd>
+					 <dd> Gujrat Lions </dd>
+					 <dd> Kochi Tuskers Kerela </dd>
+					 <dd>  Rising Pune Super Giant </dd> are the teams who were a part of IPL</p>
+				</details>
+				<p>Now we'll see the use of "dfn". It actually gives an output of font style by similar to <dfn class="note1">Italic</dfn> form.</p>
+				<dialog open>Chennai Super Kings and Rajasthan Royals were banned due to fixing alligation</dialog>
+				<p>Here in the box we've used <strong>"Open"</strong> attribute in <b>Dialog</b> element</p>
+				<p>We saw the use of "dfn" element use. They work to give an italic style to specific text. Now we'll see how "em" works. <em>Basically it also do the job of dfn.</em></p>
+					<p>We can fix the image type like jpg or jpeg by default. Here is an example:</p>
+				<figure>
+					<embed type="image/jpeg" src="images/mountain.jpg" width="200" height="" style="">
+						<figcaption>Pic: This image will download in jpeg format</figcaption>
+				</figure>
+				<footer>
+					<p><kbd>Contact Me:</kbd><a href="ismamahmed777@gmail.com" target="_blank"> Email </a> 
+				</footer>
+
+
+
+
+
+
+
+
+	</body>
+	</html>

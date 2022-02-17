@@ -1,0 +1,93 @@
+h2{
+	color: purple;
+	border: solid 4px blue;
+	margin-right: 500pt;
+	background-color: skyblue;
+
+
+
+}
+.note1{
+	color: red;
+}
+.border{
+	color: 5px double green;
+}
+h3{
+	color: blue;
+}
+
+
+h4{
+	color: red;
+}
+.classpower{
+	color:  green;
+}
+#idpower{
+	color: blue;
+}
+.Note2{
+	color: Black;
+}
+.pxcheck{
+	width: 30px;
+	height: 30px;
+	background-color: skyblue;
+}
+.ptcheck{
+	width: 30pt;
+	height: 30pt;
+	background-color:  skyblue;
+}
+.emcheck{
+	width:  30em;
+	height: 30em;
+	background-color:  skyblue;
+
+}
+.pcntcheck{
+	width:  30%;
+	height:  30px;
+	background-color: skyblue;
+}
+.hexa{
+	width: 50px;
+	height:  30pt;
+	background-color: #654551;
+}
+.rgb{
+	width:  50px;
+	height: 30pt;
+	background-color: rgb(65,45,51);
+}
+.rgba{
+	width: 50px;
+	height: 30pt;
+	background-color: rgba(65,45,51,.4);
+}
+
+.IPL{
+	margin: 20px;
+	padding: 10px;
+	background-color: lightpink;
+}
+.history{
+	background-color: whitesmoke;
+	margin: 20px;
+	padding: 15px;
+}
+aside{
+	background-color: yellowgreen;
+	padding-left: 25px;
+	margin-right: 30px;
+	width: 30%;
+	float: right;
+
+}
+.font{
+	font-: Red;t
+}
+.open{
+	float: left;
+}
